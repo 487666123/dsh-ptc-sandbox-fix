@@ -1,0 +1,32 @@
+{
+  "name": "@local/dsh-ptc-sandbox-fix",
+  "version": "1.0.1",
+  "description": "Session-aware sandbox escalation parameters for the built-in PTC mode.",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "icon": "./icon.svg",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": "0.2.2-rc.5"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-sandbox": "0.2.2-rc.5",
+    "@deepseek-ai/dsh-tool-executor-ptc": "0.2.2-rc.5"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PTC 沙箱参数修复",
+    "description": "按会话权限调整内置 PTC 模式的 run_code 参数，并在执行前移除多余的升级参数。"
+  }
+}

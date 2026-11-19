@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PTC 沙箱参数修复",
+    "description": "Shows the available run_code escalation parameters in the built-in PTC mode and removes redundant ones before execution."
+  }
+}
